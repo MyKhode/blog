@@ -54,7 +54,7 @@ const StyledWrapper = styled.div`
         padding-bottom: 100%;
       }
       img {
-        border-radius: 3.5rem;
+        border-radius: 3rem;
       }
     }
     .mid {
