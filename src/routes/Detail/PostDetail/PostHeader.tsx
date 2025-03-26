@@ -5,6 +5,7 @@ import { formatDate } from "src/libs/utils"
 import Image from "next/image"
 import React from "react"
 import styled from "@emotion/styled"
+import Script from "next/script"; // ✅ Import Next.js Script component
 
 type Props = {
   data: TPost
@@ -40,8 +41,15 @@ const PostHeader: React.FC<Props> = ({ data }) => {
               )}
             </div>
 
+            <Script
+              src="https://gnrcounter.com/counter.php?accId=3a8cf82071824deaa788fc3eb0f423c7"
+              strategy="afterInteractive" // ✅ Ensures the script runs only after hydration
+            />
+
             <noscript>
-              <a href="https://gnrcounter.com" title="Web Analytics">Web Analytics</a>
+              <a href="https://gnrcounter.com" title="Web Analytics">
+                Web Analytics
+              </a>
             </noscript>
 
           </div>

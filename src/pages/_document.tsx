@@ -41,7 +41,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script language="JavaScript" type="text/javascript" src="https://gnrcounter.com/counter.php?accId=3a8cf82071824deaa788fc3eb0f423c7"></script>
       </Html>
     )
   }
