@@ -39,17 +39,11 @@ const PostHeader: React.FC<Props> = ({ data }) => {
                 CONFIG.lang
               )}
             </div>
-            <div>
-              <script
-                async
-                src="https://gnrcounter.com/counter.php?accId=3a8cf82071824deaa788fc3eb0f423c7"
-              ></script>
-              <noscript>
-                <a href="https://gnrcounter.com" title="Web Analytics">
-                  Web Analytics
-                </a>
-              </noscript>
-            </div>
+
+            <noscript>
+              <a href="https://gnrcounter.com" title="Web Analytics">Web Analytics</a>
+            </noscript>
+
           </div>
           <div className="mid">
             {data.tags && (
