@@ -30,6 +30,12 @@ const PostDetail: React.FC<Props> = () => {
         <div>
           <NotionRenderer recordMap={data.recordMap} />
         </div>
+        <div>
+          <script language="JavaScript" type="text/javascript" src="https://gnrcounter.com/counter.php?accId=fe5aee345d7eb9126b55b959bc99708a"></script>
+          <noscript>
+          <a href="https://gnrcounter.com" title="Web Analytics">Web Analytics</a>
+          </noscript>
+        </div>
         {data.type[0] === "Post" && (
           <>
             <Footer />
