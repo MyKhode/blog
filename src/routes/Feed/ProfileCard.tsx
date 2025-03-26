@@ -48,6 +48,7 @@ const StyledWrapper = styled.div`
     .top {
       position: relative;
       width: 100%;
+      border-radius: 1rem;
       &:after {
         content: "";
         display: block;
